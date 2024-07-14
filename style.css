@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Playfair Display Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Playfair Display Italic'), url('./fonts/playfairdisplay/PlayfairDisplay-Italic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Playfair Display Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Playfair Display Bold Italic'), url('./fonts/playfairdisplay/PlayfairDisplay-BoldItalic.woff') format('woff');
+}
+
+.playfair-italic {
+    font-family: 'Playfair Display Italic';
+}
+
+.playfair-bold-italic {
+    font-family: 'Playfair Display Bold Italic';
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+.navbar {
+    background-color: #f2f2f2;
+}
+
+.contact-info {
+    font-size: 12px;
+}
+
+.carousel-img {
+    height: 815px;
+    width: 1920px;
+}
+
+.margin-top {
+    margin-top: 120px;
+}
+
+.dice-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.addToCart {
+    position: relative;
+    top: 295.5px;
+    left: 60px;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    clip-path: polygon(10% 10%, 90% 10%, 100% 100%, 0% 100%);
+}
+
+.addToCart:hover {
+    background: #f0975c;
+}
+
+.addToCart:hover :first-child:active {
+    background: #f0975c;
+}
+
+.summercollection {
+    margin-top: 40px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #f2f2f2;
+}
+
+.our-brand {
+    margin-top: 60px;
+    background: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 80px;
+}
+
+.customer-says {
+    background-image: url(/images/customer_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 40px;
+    gap: 300px;
+}
+
+.customer-says-body {
+    margin-top: 40px;
+}
